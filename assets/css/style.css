@@ -129,3 +129,23 @@ section.main ul li a:hover {
         opacity: 1
     }
 }
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0b0b0b;
+    border-radius: 2em;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:#00b8625c;
+    border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #57f287;
+  }
